@@ -6,6 +6,7 @@ import swanPic from '../Images/HomePage/swanlakecrop.jpg'
 import '../styling/App.scss';
 
 function App() {
+  console.log(window.location.pathname);
   return (
       <div className="App">
         {/*Content*/}

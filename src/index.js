@@ -2,8 +2,23 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styling/index.scss';
 import Home from './Pages/home.jsx';
+import AnotherPage from './Pages/anotherPage.jsx';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar.jsx';
+
+
+function getPage(){
+  if(window.location.pathname == '/' || window.location.pathname == '/Pages/home'){
+    return(
+      <Home />
+    )
+  }
+  else if (window.location.pathname == '/Pages/anotherPage.jsx'){
+    return(
+      <AnotherPage />
+    )
+  }
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,7 +26,7 @@ root.render(
     <div id="outer-container">
     <Navbar />
     <main id="page-wrap">
-      <Home />
+      {getPage()}
     </main>
     </div>
 

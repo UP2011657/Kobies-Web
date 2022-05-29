@@ -7,7 +7,7 @@ function Navbar(){
     return(
         <Menu right pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } style={Style}>
             <a href='../Pages/home'>Home</a>
-            <a href='../Pages/home'>Another Page</a>
+            <a href='../Pages/anotherPage.jsx'>Another Page</a>
         </Menu>
     )
 }
