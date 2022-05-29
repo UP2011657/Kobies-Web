@@ -1,11 +1,13 @@
 import { push as Menu } from 'react-burger-menu'
 
+import Style from '../styling/BurgerMenuStyle.scss'
+
 
 function Navbar(){
     return(
-        <Menu right pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" }>
-            <a>Home</a>
-            <a>Another Page</a>
+        <Menu right pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } style={Style}>
+            <a href='../Pages/home'>Home</a>
+            <a href='../Pages/home'>Another Page</a>
         </Menu>
     )
 }
