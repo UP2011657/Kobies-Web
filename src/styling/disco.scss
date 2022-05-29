@@ -2,12 +2,20 @@ body{
     overflow-y: hidden;
 }
 
+
+
 .Amogus{
     position:absolute;
     z-index: 100;
     top:10%;
-    right:25%;
+    left:25%;
     width: 50%;
+    @media only screen and (max-width: 600px){
+      top: 40%;
+      left: 25%;
+      width: 50%;
+    }
+    
 }
 
 .Red{
