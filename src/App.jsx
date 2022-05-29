@@ -6,11 +6,15 @@ import './stying/App.scss';
 
 function App() {
   return (
-    <div>
+    <div id="outer-container">
       <Navbar />
+      <main id="page-wrap">
       <div className="App">
-        <p>Home</p>
+        {/*Content*/}
+        <h1>Home</h1>
+        <p>Filler text to go on the front page of the website to look cool</p>
       </div>
+      </main>
     </div>
   );
 }
