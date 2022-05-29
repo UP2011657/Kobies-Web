@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styling/index.css';
-import App from './App';
+import Home from './Pages/home.jsx';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar.jsx';
 
@@ -11,7 +11,7 @@ root.render(
     <div id="outer-container">
     <Navbar />
     <main id="page-wrap">
-      <App />
+      <Home />
     </main>
     </div>
 
