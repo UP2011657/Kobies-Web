@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './styling/index.css';
+import './styling/index.scss';
 import Home from './Pages/home.jsx';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar.jsx';
