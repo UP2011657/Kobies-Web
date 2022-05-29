@@ -6,14 +6,14 @@ import AnotherPage from './Pages/anotherPage.jsx';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar.jsx';
 
-
+//Update this for new pages
 function getPage(){
-  if(window.location.pathname == '/' || window.location.pathname == '/Pages/home'){
+  if(window.location.pathname == '/'){
     return(
       <Home />
     )
   }
-  else if (window.location.pathname == '/Pages/anotherPage.jsx'){
+  else if (window.location.pathname == '/anotherPage'){
     return(
       <AnotherPage />
     )

@@ -6,8 +6,9 @@ import Style from '../styling/BurgerMenuStyle.scss'
 function Navbar(){
     return(
         <Menu right pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } style={Style}>
-            <a href='../Pages/home'>Home</a>
-            <a href='../Pages/anotherPage.jsx'>Another Page</a>
+            {/* Added pages must be updated in getPage() function in index.js */}
+            <a href='/'>Home</a>
+            <a href='anotherPage'>Another Page</a>
         </Menu>
     )
 }
