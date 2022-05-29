@@ -3,12 +3,12 @@ import '../styling/BurgerStyle.css'
 import swanPic from '../Images/HomePage/swanlakecrop.jpg'
 
 
-import '../styling/App.scss';
+import HomeStyle from '../styling/App.scss';
 
 function App() {
   console.log(window.location.pathname);
   return (
-      <div className="App">
+      <div style={HomeStyle} className="App">
         {/*Content*/}
         <h1>Home</h1>
         <img src={swanPic} alt="Swan in a lake" width='100%'/>
