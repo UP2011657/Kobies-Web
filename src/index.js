@@ -3,19 +3,28 @@ import ReactDOM from 'react-dom/client';
 import './styling/index.scss';
 import Home from './Pages/home.jsx';
 import AnotherPage from './Pages/anotherPage.jsx';
+import ThreePage from './Pages/threePage.jsx';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar.jsx';
 
 //Update this for new pages
 function getPage(){
   if(window.location.pathname == '/'){
+    console.log("Going to Home Page");
     return(
       <Home />
     )
   }
   else if (window.location.pathname == '/anotherPage'){
+    console.log("going to Another Page");
     return(
       <AnotherPage />
+    )
+  }
+  else if (window.location.pathname == '/threePage'){
+    console.log("Going to Three Page");
+    return(
+      <ThreePage />
     )
   }
 }

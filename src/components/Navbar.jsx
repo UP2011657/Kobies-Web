@@ -9,6 +9,7 @@ function Navbar(){
             {/* Added pages must be updated in getPage() function in index.js */}
             <a href='/'>Home</a>
             <a href='anotherPage'>Another Page</a>
+            <a href='threePage'>Three Page</a>
         </Menu>
     )
 }
