@@ -15,7 +15,9 @@ function App() {
 
         <div className="TextBox">
           <h2>Hello!</h2>
-          <p>Thank you so much for checking out my website! Feel free to look around and make yourself comfrotable! I hope you enjoy your stay.</p>
+          <p>Thank you so much for checking out my website!
+            Feel free to look around and make yourself comfortable!
+            I hope you enjoy your stay.</p>
         </div>
         
       </div>
