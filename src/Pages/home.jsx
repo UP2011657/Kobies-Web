@@ -11,7 +11,9 @@ function App() {
       <div style={HomeStyle} className="App">
         {/*Content*/}
         <h1>Home</h1>
+        <div className="ImageBorderTop"></div>
         <img src={swanPic} alt="Swan in a lake" width='100%'/>
+        <div className="ImageBorderBottom"></div>
 
         <div className="TextBox">
           <h2>Hello!</h2>
